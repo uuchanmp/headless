@@ -77,11 +77,11 @@ const config = {
 		return [
 			{
 				source: '/blog',
-				destination: `https://headless-kappa.vercel.app/blog`,
+				destination: `https://headless-28wybrci9-uchanmp.vercel.app/blog`,
 			},
 			{
 				source: '/blog/:path*',
-				destination: `https://headless-kappa.vercel.app/blog/:path*`,
+				destination: `https://headless-28wybrci9-uchanmp.vercel.app/blog/:path*`,
 			},
 		];
 	},
