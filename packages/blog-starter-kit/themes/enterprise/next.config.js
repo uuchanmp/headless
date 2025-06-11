@@ -76,12 +76,12 @@ const config = {
 	async rewrites() {
 		return [
 			{
-				source: '/ping/data-event',
-				destination: `${ANALYTICS_BASE_URL}/api/data-event`,
+				source: '/blog',
+				destination: `https://headless-kappa.vercel.app/blog`,
 			},
 			{
-				source: '/api/analytics',
-				destination: `${HASHNODE_ADVANCED_ANALYTICS_URL}/api/analytics`,
+				source: '/blog/:path*',
+				destination: `https://headless-kappa.vercel.app/blog/:path*`,
 			},
 		];
 	},
